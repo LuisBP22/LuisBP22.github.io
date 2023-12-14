@@ -1,0 +1,155 @@
+@font-face{
+    font-family: roboto;
+    src: url(./assets/roboto/Roboto-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+
+.inicio{
+    background-image: url(./assets/img/img-fondo-inicio.png);
+}
+#imagen-personal{
+    height: 330px;
+}
+.seccion{
+    padding: 90px 0;
+}
+h2{
+    font-size: 48px !important;
+    font-weight: bold !important;
+}
+h3{
+    font-size: 35px !important;
+    font-weight: bold;
+}
+h4{
+    font-weight: bold !important;
+}
+p{
+    font-size: 20px !important;
+}
+.icon-font{
+    font-size: 30px;
+}
+.icon-color{
+    color: darkblue;
+}
+.bg-gris{
+    background-color: #0f1b29;
+}
+.timeline {
+    width: 80%;
+    margin: 50px auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Establece un contenedor flexible para los elementos de la lista */
+}
+
+.timeline li {
+    flex: 1; /* Distribuye el espacio disponible entre los elementos de la lista */
+    margin-right: 20px; /* Añade espacio entre los elementos */
+}
+
+.timeline-event {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: black;
+}
+
+
+
+.event-date {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.event-description {
+    font-size: 16px;
+}
+
+.timeline li:not(:last-child) .timeline-event::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 20px; /* Ajusta la longitud de la línea horizontal */
+    height: 2px;
+    background-color: #fff;
+}
+.bg-gris{
+    background-color: #0f1b29;
+}
+.formacion{
+    border-radius: 10px;
+    box-shadow: black;
+    padding: 50px 50px;
+    background-color: #0f1b29;   
+}
+.navbar-nav li{
+    margin: 15px;
+}
+.bg-grey{
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 0px 20px rgba(0,0,0,1);
+    box-shadow: 0px 0px 0px 20px rgba(0,0,0,1);
+}
+.fondo-gris{
+    background-color: #f3f3f3;
+
+}
+.icon-font-contact{
+    font-size: 40px;
+}
+.imagenes-redondas{
+    border-radius: 10px;
+}
+
+.timeline {
+    --wrapper-width: 900px;
+
+    width: 95%;
+    max-width: var(--wrapper-width);
+    margin: auto;
+}
+
+
+.custom-hr {
+    border: none;
+    height: 2px; /* Grosor de la línea */
+    background-color: black; /* Color de la línea */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .hr-container {
+    position: relative;
+    width: 80%; /* Ajusta el ancho según tus preferencias */
+  }
+ .titulos-azules{
+    color: darkblue !important;
+ }
+ a{
+    font-weight: bold !important;
+ }
+ nav ul li a:hover{
+    color:darkblue !important;
+ }
+ nav  i:hover, #contacto i:hover, footer a i:hover{
+    opacity: 0.5 !important;
+ }
+.enlaces-footer:hover {
+    text-decoration: underline !important;
+}
