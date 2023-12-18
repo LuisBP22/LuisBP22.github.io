@@ -1,250 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css'>
-<script src="script.js"></script>   
-<meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css'>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luis Bértolo</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg fondo-gris text-white py-3 ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-black d-flex justify-content-evenly" id="navbarNavDropdown">
-          <div>
-            <img src="./assets/img/icono-computadora.png" alt="" height="100px">
+    <nav class="navbar navbar-expand-lg fondo-gris text-white py-3">
+        <div class="container-fluid">
+            <img src="./assets/img/icono-computadora.png" alt="" height="100px" class="d-lg-none ms-md-5">
+            <div class=" d-lg-none">
+                <a href="https://www.linkedin.com/in/luis-b%C3%A9rtolo-prado-3a9a2a271/"
+                    class="text-decoration-none me-3 icon-color">
+                    <i class="bi bi-linkedin icon-font"></i>
+                </a>
+                <a href="mailto:quiquebp22@gmail.com" class="text-decoration-none me-3 icon-color">
+                    <i class="bi bi-envelope-fill icon-font"></i>
+                </a>
+                <a href="tel:+34662641796" class="text-decoration-none icon-color">
+                    <i class="bi bi-phone icon-font"></i>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-evenly" id="navbarNav">
+            <img src="./assets/img/icono-computadora.png" alt="" height="100px" class="d-lg-block d-none">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#sobremi">Sobre Mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#miformacion">Formación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#techstack">Tech-Stack</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+            <div class="d-none d-lg-block">
+                <a href="https://www.linkedin.com/in/luis-b%C3%A9rtolo-prado-3a9a2a271/"
+                    class="text-decoration-none me-3 icon-color">
+                    <i class="bi bi-linkedin icon-font"></i>
+                </a>
+                <a href="mailto:quiquebp22@gmail.com" class="text-decoration-none me-3 icon-color">
+                    <i class="bi bi-envelope-fill icon-font"></i>
+                </a>
+                <a href="tel:+34662641796" class="text-decoration-none icon-color">
+                    <i class="bi bi-phone icon-font"></i>
+                </a>
+            </div>
           </div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#sobremi">Sobre Mi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#miformacion">Formación</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#experiencia">Experiencia</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#techstack">Tech-Stack</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-black" href="#contacto">Contacto</a>
-            </li>
-          </ul>
-          <div>
-            <a href="https://www.linkedin.com/in/luis-b%C3%A9rtolo-prado-3a9a2a271/" class="text-decoration-none me-3 icon-color">
-                <i class="bi bi-linkedin icon-font"></i>       
-            </a>
-            <a href="mailto:quiquebp22@gmail.com" class="text-decoration-none me-3 icon-color">
-                <i class="bi bi-envelope-fill icon-font"></i>
-            </a>
-            <a href="tel:+34662641796" class="text-decoration-none icon-color">
-                <i class="bi bi-phone icon-font"></i>
-            </a>
-        </div>
+        
         </div>
       </nav>
     <section class="seccion inicio" id="sobremi">
-    <div class="d-flex justify-content-center align-items-center">
-        <div class="text-white d-flex justify-content-center align-items-center">
-            <div style="width: 60%;" >
-                <h2 class="mb-3">Bienvenido, soy Luis</h2>
-                <p class="fw-bold">Soy un programador junior buscando oportunidades para crecer profesionalmente.</p>
-                <p class="fw-bold">No cuento con mucha experiencia pero mi pasión por el desarrollo supera esa falta.</p>
-                <p class="fw-bold">Me apasionada la tecnología y la programación especialmente en el entorno web y de aplicaciones móviles</p>
-            </div>
-            <img src="./assets/img/luis-bertolo.png" alt="Luis Bértolo Prado" id="imagen-personal">
-        </div>
-    </div>
-</section>
-<section class="seccion fondo-gris" id="miformacion">
-    <div>
-        <h2 class="text-center titulos-azules">Mi Formación</h2>
-        <div class="d-flex justify-content-center text-white">
-        <div class="d-flex justify-content-center my-5 formacion">
-            <div class="me-5">
-            <h3 class="text-center">CS DAM</h3>
-            <h4 class="text-center mt-5">Adquirí Conocimientos En:</h4>
-            <div class="d-flex justify-content-center mt-5">
-                <img src="./assets/img/java.png" alt="Java" class="me-5">
-                <img src="./assets/img/mysql.png" alt="MySQL" class="me-5">
-                <img src="./assets/img/csharp.png" alt="C#" class="me-5">
-            </div>
-            <div class="d-flex justify-content-center mt-5" >
-                <img src="./assets/img/android-studio.png" alt="Android Studio" class="me-5">
-                <img src="./assets/img/vs.png" alt="Visual Studio" class="me-5">
-                <img src="./assets/img/unity.png" alt="Unity" class="me-5" >
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="text-white d-flex justify-content-center align-items-center flex-wrap">
+                <div style="width: 60%;">
+                    <h2 class="mb-3">Bienvenido, soy Luis</h2>
+                    <p class="fw-bold">Programador junior apasionado por el desarrollo web y móvil, en busca de
+                        oportunidades para crecer y contribuir en un entorno que fomente mi desarrollo profesional.</p>
+                    </p>
+                </div>
+                <img src="./assets/img/luis-bertolo.png" alt="Luis Bértolo Prado" id="imagen-personal">
             </div>
         </div>
-            <img src="./assets/img/dam.jpg" alt="Desarrollo de Aplicaciones Multiplataforma" width="500" class="imagenes-redondas">
-        </div>
-    </div>
-    <div class="d-flex justify-content-center text-white">
-        <div class="d-flex justify-content-center formacion">
-            <img src="./assets/img/daw.jpg" alt="Desarrollo de Aplicaciones Web" width="500" class="imagenes-redondas">
-        <div class="ms-5">
-            <h3 class="text-center">CS DAW</h3>
-            <h4 class="text-center mt-5">Adquirí Conocimientos En:</h4>
-            <div class="d-flex justify-content-center mt-5">
-                <img src="./assets/img/html.png" alt="Java" class="me-5">
-                <img src="./assets/img/css.png" alt="MySQL" class="me-5">
-                <img src="./assets/img/js.png" alt="C#" class="me-5">
+    </section>
+    <section class="seccion fondo-gris" id="miformacion">
+        <div>
+            <h2 class="text-center titulos-azules">Mi Formación</h2>
+            <div class="d-flex justify-content-center text-white">
+                <div class="d-flex justify-content-center my-5 formacion">
+                    <div class="me-lg-5">
+                        <h3 class="text-center">CS DAM</h3>
+                        <h4 class="text-center mt-5">Adquirí Conocimientos En:</h4>
+                        <div class="d-flex justify-content-center mt-5 ms-5 ms-lg-0">
+                            <img src="./assets/img/java.png" alt="Java" class="me-5">
+                            <img src="./assets/img/mysql.png" alt="MySQL" class="me-5">
+                            <img src="./assets/img/csharp.png" alt="C#" class="me-5">
+                        </div>
+                        <div class="d-flex justify-content-center mt-5 ms-5 ms-lg-0">
+                            <img src="./assets/img/android-studio.png" alt="Android Studio" class="me-5">
+                            <img src="./assets/img/vs.png" alt="Visual Studio" class="me-5">
+                            <img src="./assets/img/unity.png" alt="Unity" class="me-5">
+                        </div>
+                    </div>
+                    <img src="./assets/img/dam.jpg" alt="Desarrollo de Aplicaciones Multiplataforma" width="500"
+                        class="imagenes-redondas mt-5 imagen-dam">
+                </div>
             </div>
-            <div class="d-flex justify-content-center mt-5" >
-                <img src="./assets/img/php.png" alt="Android Studio" class="me-5">
-                <img src="./assets/img/bootstrap.png" alt="Visual Studio" class="me-5">
-                <img src="./assets/img/vs-code.png" alt="Unity" class="me-5" >
+            <div class="d-flex justify-content-center text-white">
+                <div class="d-flex justify-content-center formacion">
+                    <img src="./assets/img/daw.jpg" alt="Desarrollo de Aplicaciones Web" width="500"
+                        class="imagenes-redondas imagen-pc">
+                    <div class="ms-lg-5">
+                        <h3 class="text-center">CS DAW</h3>
+                        <h4 class="text-center mt-5">Adquirí Conocimientos En:</h4>
+                        <div class="d-flex justify-content-center mt-5 ms-5 ms-lg-0">
+                            <img src="./assets/img/html.png" alt="Java" class="me-5">
+                            <img src="./assets/img/css.png" alt="MySQL" class="me-5">
+                            <img src="./assets/img/js.png" alt="C#" class="me-5">
+                        </div>
+                        <div class="d-flex justify-content-center mt-5 ms-5 ms-lg-0">
+                            <img src="./assets/img/php.png" alt="Android Studio" class="me-5">
+                            <img src="./assets/img/bootstrap.png" alt="Visual Studio" class="me-5">
+                            <img src="./assets/img/vs-code.png" alt="Unity" class="me-5">
+                        </div>
+                    </div>
+                    <img src="./assets/img/daw.jpg" alt="Desarrollo de Aplicaciones Web" width="500"
+                        class="imagenes-redondas imagen-mobile mt-5">
+
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-</section>
-<section class="seccion bg-gris" id="experiencia">
-            <h2 class="text-center text-white">Mi Experiencia</h2>
+    </section>
+    <section class="seccion bg-gris" id="experiencia">
+        <h2 class="text-center text-white">Mi Experiencia</h2>
         <div class="d-flex justify-content-center mt-5">
             <div class="timeline">
                 <ul>
                     <li>
-                        <div class="timeline-event fondo-gris pb-5">
+                        <div class="timeline-event fondo-gris pb-5  ps-5 pe-5">
                             <div class="event-header mb-5 text-center">
                                 <img src="./assets/img/logo-arbentia.png" alt="Arbentia Consulting" height="200px">
                                 <h4 class="fw-bold"> Prácticas de FP Dual</h4>
                             </div>
-                            <div class="ms-5">
+                            <div class="ms-lg-5">
                                 <p class="event-description">Formación en el uso de Microsoft Dynamics CRM</p>
-                                <p class="event-description" style="height: 133px;">Formación en programación de plugins y desarrollos para Dynamics mediante JavaScript y C# en entornos reales de clientes</p> 
-                            </div>                           
+                                <p class="event-description arbentia" style="height: 133px;">Formación en programación
+                                    de plugins y desarrollos para Dynamics mediante JavaScript y C# en entornos reales
+                                    de clientes</p>
+                            </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="timeline-event fondo-gris pb-5">
+                    <li class="mt-lg-0 mt-5">
+                        <div class="timeline-event fondo-gris pb-5 ps-5 pe-5">
                             <div class="event-header mb-5 text-center">
                                 <img src="./assets/img/logo-teconsite.png" alt="Teconsite" height="200">
                                 <h4 class="fw-bold">Estudiante en Prácticas y Desarrollador Web Junior </h4>
                             </div>
-                            <div class="ms-5">
-                            <p class="event-description">Programación PHP con CodeIgniter y JavaScript</p>
-                            <p class="event-description">Maquetación HTML y CSS</p>
-                            <P class="event-description">Desarrollo de páginas web con Wordpress</P>
-                            </div>                          
+                            <div class="ms-lg-5">
+                                <p class="event-description">Programación PHP con CodeIgniter y JavaScript</p>
+                                <p class="event-description">Maquetación HTML y CSS</p>
+                                <P class="event-description">Desarrollo de páginas web con Wordpress</P>
+                            </div>
                         </div>
                     </li>
                 </ul>
-            </div>  
-        </div>
-</section>
-<section class="seccion fondo-gris" id="techstack">
-    <h2 class="text-center titulos-azules">Mi Tech-Stack</h2>
-    <div class="d-flex justify-content-center flex-wrap ">
-    <div class="mt-5 bg-grey p-5">
-       <div>
-        <img src="./assets/img/html.png" alt="HTML" srcset="" class="me-5">
-        <img src="./assets/img/css.png" alt="CSS" srcset="" class="me-5">
-        <img src="./assets/img/js.png" alt="JS" srcset="" class="me-5">
-        <img src="./assets/img/php.png" alt="PHP" srcset="" class="me-5">
-        <img src="./assets/img/bootstrap.png" alt="Bootstrap" srcset="" class="me-5">
-        <img src="./assets/img/ci.png" alt="CodeIgniter" srcset="" class="me-5">
-       </div>
-       <div class="mt-5">
-        <img src="./assets/img/mysql.png" alt="MySQL" srcset="" class="me-5">
-        <img src="./assets/img/jquery.png" alt="JQuery" srcset="" class="me-5">
-        <img src="./assets/img/wp.png" alt="Wordpress" srcset="" class="me-5">
-        <img src="./assets/img/java.png" alt="Java" srcset="" class="me-5">
-        <img src="./assets/img/csharp.png" alt="C#" srcset="" class="me-5">
-        <img src="./assets/img/msdynamics.png" alt="Microsoft Dynamics CRM" srcset="" class="me-5">
-     </div>
-     <div class="mt-5 d-flex justify-content-center">
-        <div>
-            <img src="./assets/img/android-studio.png" alt="Android Studio" srcset="" class="me-5">
-            <img src="./assets/img/vs-code.png" alt="Visual Studio Code" srcset="" class="me-5">
-            <img src="./assets/img/vs.png" alt="Visual Studio" srcset="" class="me-5">
-        </div>
-     </div>
-    </div>
-</div>
-</section>
-<section class="seccion bg-gris" id="proyectos">
-    <h2 class="text-center text-white">Proyectos</h2>
-    <div class="d-flex justify-content-center mt-5">
-        <div class="bg-grey p-5 d-flex flex-wrap justify-content-center" style="width: 80%;">
-            <div class="d-flex align-items-center my-5 justify-content-center">
-                <video src="./assets/videos/Demo Proyecto.mp4" controls height="250" class="me-5 ms-5"></video>
-                <div>
-                    <div style="width: 50%;">
-                        <h3 class="titulos-azules">CarbaCine</h3>
-                    <p class=" mt-5">Proyecto de Fin de Ciclo de DAW</p>
-                    <p class="">Consiste en la gestión de un cine pequeño donde el usuario puede reservar sus entradas y asientos y le llegan por coreo.</p>
-                    <p class="">Por otro lado, el administrador puede crear, modificar y eliminar las películas y las sesiones de estas.</p>
-                    <h4 class=" mt-5">Tecnologías empleadas:</h4>
-                    </div>
-                    <div class="d-flex mt-5">
-                        <img src="./assets/img/html.png" alt="HTML" srcset="" class="me-5">
-                        <img src="./assets/img/css.png" alt="CSS" srcset="" class="me-5">
-                        <img src="./assets/img/js.png" alt="JS" srcset="" class="me-5">
-                        <img src="./assets/img/jquery.png" alt="JQuery" srcset="" class="me-5">   
-                    </div>
-                    <div class="d-flex mt-5">
-                        <img src="./assets/img/php.png" alt="PHP" srcset="" class="me-5">
-                        <img src="./assets/img/mysql.png" alt="MySQL" srcset="" class="me-5">
-                        <img src="./assets/img/bootstrap.png" alt="Bootstrap" srcset="" class="me-5">
-                        <img src="./assets/img/ci.png" alt="CodeIgniter" srcset="" class="me-5">
-                    </div>
-                </div>  
-        </div>
-        <div class="hr-container">
-            <hr class="custom-hr">
-          </div>        
-          <div class="d-flex align-items-center my-5 py-5">
-            <div class="">
-                <h3 class="titulos-azules">Pmul Notas</h3>
-                <p class="mt-5">Proyecto de iniciación muy básica en la programación Android</p>
-                <p class="">Consiste en la creación de notas de manera persistente en Android.</p>
-                <h4 class=" mt-5">Tecnologías empleadas:</h4>
-                <div class="d-flex mt-5">
-                    <img src="./assets/img/java.png" alt="Java" srcset="" class="me-5">
-                    <img src="./assets/img/android-studio.png" alt="Android Studio" srcset="" class="me-5">
-                    <img src="./assets/img/mysql.png" alt="MySQL" srcset="" class="me-5">
-                </div>
-    </div>
-    <video src="./assets/videos/PmulNotas.webm" controls height="250" class="ms-5"></video>
-    </div>
-     <div class="hr-container">
-            <hr class="custom-hr">
-          </div>      
-    <div class="d-flex align-items-center my-5 py-5">
-        <video src="./assets/videos/pmulvania.webm" controls height="250" class="me-5"></video>
-        <div class="">
-            <h3 class="titulos-azules">PMULVANIA</h3>
-            <p class="mt-5">Proyecto de iniciación en desarrollo con Unity</p>
-            <p class="">Consiste en un juego del tipo Metroidvania donde se debe llegar al final del nivel.</p>
-            <p>Por el camino vas encontrando enemigos que debes eliminar y obstaculos que debes saltar.</p>
-            <h4 class=" mt-5">Tecnologías empleadas:</h4>
-            <div class="d-flex mt-5">
-                <img src="./assets/img/csharp.png" alt="C#" srcset="" class="me-5">
-                <img src="./assets/img/unity.png" alt="Unity" srcset="" class="me-5"> 
             </div>
-        </div>  
-</div>
+        </div>
+    </section>
+    <section class="seccion fondo-gris" id="techstack">
+        <h2 class="text-center titulos-azules">Mi Tech-Stack</h2>
+        <div class="d-flex justify-content-center flex-wrap ">
+        <div class="mt-5 bg-grey p-5">
+           <div class="techs">
+            <img src="./assets/img/html.png" alt="HTML" srcset="" class="me-5">
+            <img src="./assets/img/css.png" alt="CSS" srcset="" class="me-5">
+            <img src="./assets/img/js.png" alt="JS" srcset="" class="me-5">
+            <img src="./assets/img/php.png" alt="PHP" srcset="" class="me-5">
+            <img src="./assets/img/bootstrap.png" alt="Bootstrap" srcset="" class="me-5">
+            <img src="./assets/img/ci.png" alt="CodeIgniter" srcset="" class="me-5">
+           </div>
+           <div class="mt-5 techs">
+            <img src="./assets/img/mysql.png" alt="MySQL" srcset="" class="me-5">
+            <img src="./assets/img/jquery.png" alt="JQuery" srcset="" class="me-5">
+            <img src="./assets/img/wp.png" alt="Wordpress" srcset="" class="me-5">
+            <img src="./assets/img/java.png" alt="Java" srcset="" class="me-5">
+            <img src="./assets/img/csharp.png" alt="C#" srcset="" class="me-5">
+            <img src="./assets/img/msdynamics.png" alt="Microsoft Dynamics CRM" srcset="" class="me-5">
+         </div>
+         <div class="mt-5 d-lg-flex justify-content-center">
+            <div class="techs">
+                <img src="./assets/img/android-studio.png" alt="Android Studio" srcset="" class="me-5">
+                <img src="./assets/img/vs-code.png" alt="Visual Studio Code" srcset="" class="me-5">
+                <img src="./assets/img/vs.png" alt="Visual Studio" srcset="" class="me-5">
+            </div>
+         </div>
         </div>
     </div>
-</section>
-<section class="seccion fondo-gris" id="contacto">
-    <h3 class="text-center titulos-azules">Contacta Conmigo</h3>
-    <div class="d-flex justify-content-center mt-5">
+    </section>
+    <section class="seccion bg-gris" id="proyectos">
+        <h2 class="text-center text-white">Proyectos</h2>
+        <div class="d-flex justify-content-center mt-5">
+            <div class="bg-grey p-5 d-flex flex-wrap justify-content-lg-center justify-content-md-center jus proyectos"
+                style="width: 80%;">
+                <div class="d-flex align-items-center my-5 justify-content-center  carbacine">
+                    <video src="./assets/videos/Demo Proyecto.mp4" controls height="250"
+                        class="me-lg-5 ms-lg-5 video-carba"></video>
+                    <div>
+                        <div style="width: 50%;" class="text-container">
+                            <h3 class="titulos-azules mt-5">CarbaCine</h3>
+                            <p class=" mt-5">Proyecto de Fin de Ciclo de DAW</p>
+                            <p class="">Consiste en la gestión de un cine pequeño donde el usuario puede reservar sus
+                                entradas y asientos y le llegan por coreo.</p>
+                            <p class="">Por otro lado, el administrador puede crear, modificar y eliminar las películas
+                                y las sesiones de estas.</p>
+                            <h4 class=" mt-5">Tecnologías empleadas:</h4>
+                        </div>
+                        <div class="d-flex mt-5 tecnologias-proyectos-carbacine">
+                            <img src="./assets/img/html.png" alt="HTML" srcset="" class="me-5">
+                            <img src="./assets/img/css.png" alt="CSS" srcset="" class="me-5">
+                            <img src="./assets/img/js.png" alt="JS" srcset="" class="me-5">
+                            <img src="./assets/img/jquery.png" alt="JQuery" srcset="" class="me-5">
+                        </div>
+                        <div class="d-flex mt-5 tecnologias-proyectos-carbacine">
+                            <img src="./assets/img/php.png" alt="PHP" srcset="" class="me-5">
+                            <img src="./assets/img/mysql.png" alt="MySQL" srcset="" class="me-5">
+                            <img src="./assets/img/bootstrap.png" alt="Bootstrap" srcset="" class="me-5">
+                            <img src="./assets/img/ci.png" alt="CodeIgniter" srcset="" class="me-5">
+                        </div>
+                    </div>
+                </div>
+                <div class="hr-container">
+                    <hr class="custom-hr">
+                </div>
+                <div class="d-flex align-items-center my-5 py-5 flex-wrap">
+                    <div class="">
+                        <div style="width: 70%;">
+                            <h3 class="titulos-azules">Pmul Notas</h3>
+                            <p class="mt-5">Proyecto de iniciación muy básica en la programación Android</p>
+                            <p class="">Consiste en la creación de notas de manera persistente en Android.</p>
+                            <h4 class=" mt-5">Tecnologías empleadas:</h4>
+                        </div>
+                        <div class="d-flex mt-5 tecnologias-proyectos">
+                            <img src="./assets/img/java.png" alt="Java" srcset="" class="me-5">
+                            <img src="./assets/img/android-studio.png" alt="Android Studio" srcset="" class="me-5">
+                            <img src="./assets/img/mysql.png" alt="MySQL" srcset="" class="me-5">
+                        </div>
+                    </div>
+                    <video src="./assets/videos/PmulNotas.webm" controls height="250" class="ms-lg-5 mt-5"></video>
+                </div>
+                <div class="hr-container">
+                    <hr class="custom-hr">
+                </div>
+                <div class="d-flex align-items-center my-5 py-5 flex-wrap">
+                    <video src="./assets/videos/pmulvania.webm" controls height="250" class="me-5"></video>
+                    <div class="">
+                        <div style="width: 70%;">
+                            <h3 class="titulos-azules mt-5">PMULVANIA</h3>
+                            <p class="mt-5">Proyecto de iniciación en desarrollo con Unity</p>
+                            <p class="">Consiste en un juego del tipo Metroidvania donde se debe llegar al final del
+                                nivel.</p>
+                            <p>Por el camino vas encontrando enemigos que debes eliminar y obstaculos que debes saltar.
+                            </p>
+                            <h4 class=" mt-5">Tecnologías empleadas:</h4>
+                        </div>
+                        <div class="d-flex mt-5 tecnologias-proyectos">
+                            <img src="./assets/img/csharp.png" alt="C#" srcset="" class="me-5">
+                            <img src="./assets/img/unity.png" alt="Unity" srcset="" class="me-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="seccion fondo-gris" id="contacto">
+        <h3 class="text-center titulos-azules">Contacta Conmigo</h3>
+        <div class="d-flex justify-content-center mt-5">
             <div class="text-center me-5">
-                <a href="https://www.linkedin.com/in/luis-b%C3%A9rtolo-prado-3a9a2a271/" class="text-decoration-none me-3 icon-color">
-                    <i class="bi bi-linkedin icon-font-contact"></i>       
+                <a href="https://www.linkedin.com/in/luis-b%C3%A9rtolo-prado-3a9a2a271/"
+                    class="text-decoration-none me-3 icon-color">
+                    <i class="bi bi-linkedin icon-font-contact"></i>
                 </a>
                 <h4>Linkedin</h4>
             </div>
@@ -260,64 +300,77 @@
                 </a>
                 <h4>Llamar</h4>
             </div>
-    </div>
-</section>
-<footer class="bg-gris seccion">
-    <div>
-        <div class="d-flex justify-content-evenly">
-            <div>
-                <h3 class="text-white">Secciones</h3>
+        </div>
+    </section>
+    <footer class="bg-gris seccion">
+        <div>
+            <div class="d-lg-flex justify-content-evenly ">
                 <div class="text-center">
-                    <ul class="list-unstyled list-group mt-3">
-                    <li>
-                        <a class=" text-white mt-5 text-decoration-none fw-bold enlaces-footer" href="#sobremi">Sobre Mi</a>
-                    </li>
-                    <li >
-                        <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer" href="#miformacion">Formación</a>
-                    </li>
-                    <li >
-                        <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer" href="#experiencia">Experiencia</a>
-                    </li>
-                    <li >
-                        <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer" href="#techstack">Tech-Stack</a>
-                    </li>
-                    <li>
-                        <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer" href="#proyectos">Proyectos</a>
-                    </li>
-                    <li>
-                        <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer" href="#contacto">Contacto</a>
-                    </li>
-                  </ul>
+                    <h3 class="text-white">Secciones</h3>
+                    <div class="text-center">
+                        <ul class="list-unstyled list-group mt-3">
+                            <li>
+                                <a class=" text-white mt-5 text-decoration-none fw-bold enlaces-footer"
+                                    href="#sobremi">Sobre Mi</a>
+                            </li>
+                            <li>
+                                <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer"
+                                    href="#miformacion">Formación</a>
+                            </li>
+                            <li>
+                                <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer"
+                                    href="#experiencia">Experiencia</a>
+                            </li>
+                            <li>
+                                <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer"
+                                    href="#techstack">Tech-Stack</a>
+                            </li>
+                            <li>
+                                <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer"
+                                    href="#proyectos">Proyectos</a>
+                            </li>
+                            <li>
+                                <a class="text-white mt-5 text-decoration-none fw-bold enlaces-footer"
+                                    href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="text-center">
-                <h3 class="text-white">Contacto</h3>
-                <div class="mt-3">
-                    <a href="https://www.linkedin.com/in/luis-b%C3%A9rtolo-prado-3a9a2a271/" class="text-decoration-none me-3 text-white">
-                        <i class="bi bi-linkedin icon-font"></i>       
-                    </a>
-                    <a href="mailto:quiquebp22@gmail.com" class="text-decoration-none me-3 text-white">
-                        <i class="bi bi-envelope-fill icon-font"></i>
-        
-                    </a>
-                    <a href="tel:+34662641796" class="text-decoration-none text-white">
-                        <i class="bi bi-phone icon-font"></i>
-                    </a>
+                <div class="text-center mt-5 m-lg-0">
+                    <h3 class="text-white">Contacto</h3>
+                    <div class="mt-3">
+                        <a href="https://www.linkedin.com/in/luis-b%C3%A9rtolo-prado-3a9a2a271/"
+                            class="text-decoration-none me-3 text-white">
+                            <i class="bi bi-linkedin icon-font"></i>
+                        </a>
+                        <a href="mailto:quiquebp22@gmail.com" class="text-decoration-none me-3 text-white">
+                            <i class="bi bi-envelope-fill icon-font"></i>
+
+                        </a>
+                        <a href="tel:+34662641796" class="text-decoration-none text-white">
+                            <i class="bi bi-phone icon-font"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="text-center">
-                <h3 class="text-white">Atribuciones</h3>
-                <ul class="list-group mt-3">
-                    <li>
-                        <a href="https://icons8.com/icons" class="text-decoration-none text-white fw-bold enlaces-footer">Icons By Icons8</a>
-                    </li>
-                    <li>
-                        <a class="text-decoration-none text-white fw-bold enlaces-footer" href="https://www.flaticon.es/iconos-gratis/ordenador-portatil" title="ordenador portátil iconos">Ordenador portátil iconos creados por Freepik - Flaticon</a>
-                    </li>
-                </ul>
+                <div class="text-center mt-5 m-lg-0">
+                    <h3 class="text-white">Atribuciones</h3>
+                    <ul class="list-group mt-3">
+                        <li>
+                            <a href="https://icons8.com/icons"
+                                class="text-decoration-none text-white fw-bold enlaces-footer">Icons By Icons8</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none text-white fw-bold enlaces-footer"
+                                href="https://www.flaticon.es/iconos-gratis/ordenador-portatil"
+                                title="ordenador portátil iconos">Ordenador portátil iconos creados por Freepik -
+                                Flaticon</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 </body>
+
 </html>

@@ -48,12 +48,12 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Establece un contenedor flexible para los elementos de la lista */
+    display: flex; 
 }
 
 .timeline li {
-    flex: 1; /* Distribuye el espacio disponible entre los elementos de la lista */
-    margin-right: 20px; /* Añade espacio entre los elementos */
+    flex: 1; 
+    margin-right: 20px; 
 }
 
 .timeline-event {
@@ -152,4 +152,97 @@ ul {
  }
 .enlaces-footer:hover {
     text-decoration: underline !important;
+}
+.imagen-mobile{
+    display: none;
+}
+
+
+/*mobile*/
+@media (max-width: 767px){
+    .formacion{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagen-pc{
+        display: none;
+    }
+    .imagen-mobile{
+        display: block;
+        width: 350px !important;
+    }
+    .imagen-dam{
+        width:350px !important
+    }
+    ul{
+        display: block;
+    }
+    .timeline li:not(:last-child) .timeline-event::after {
+        content:none;
+    }
+    .arbentia{
+        height:auto !important
+    }
+  .techs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px !important;
+    margin-left: 20px !important;
+  }
+  .carbacine{
+    flex-wrap: wrap;
+  }
+  .proyectos{
+    width: 100% !important;
+  }
+  video{
+    width: 300px !important;
+  }
+  .video-carba{
+    margin-right: 300px;
+  }
+  .tecnologias-proyectos{
+    flex-wrap: wrap;
+  }
+  .tecnologias-proyectos-carbacine{
+    width: 50%;
+    flex-wrap: wrap;
+  }
+}
+
+
+/*tablet*/
+@media (min-width:768px) and (max-width:992px) {
+    .formacion{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imagen-pc{
+        display: none;
+    }
+    .imagen-mobile{
+        display: block;
+    }
+  
+ 
+    .text-container{
+        width: 100% !important;
+    }
+    .carbacine{
+        flex-wrap: wrap;
+    }
+    ul{
+        display: block;
+    }
+    .timeline li:not(:last-child) .timeline-event::after {
+        content:none;
+    }
+    .techs{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px !important;
+        margin-left: 20px !important;
+      }
 }
