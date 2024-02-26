@@ -8,6 +8,9 @@
     font-family: roboto;
 }
 
+html,body{
+    overflow-x: hidden !important;
+}
 .inicio{
     background-image: url(./assets/img/img-fondo-inicio.png);
 }
@@ -156,6 +159,9 @@ ul {
 .imagen-mobile{
     display: none;
 }
+.text-container{
+    width: 50%;
+}
 
 
 /*mobile*/
@@ -206,8 +212,16 @@ ul {
     flex-wrap: wrap;
   }
   .tecnologias-proyectos-carbacine{
-    width: 50%;
     flex-wrap: wrap;
+  }
+  .stacktech{
+    padding:40px;
+  }
+  .text-container{
+    width: 100%;
+  }
+  #proyectos{
+    padding: 40px ;
   }
 }
 
